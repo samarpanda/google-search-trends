@@ -1,6 +1,6 @@
 {
   "name": "google-search-trends",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get top 20 google search trends grouped by countries",
   "main": "google-search-trends.js",
   "scripts": {
