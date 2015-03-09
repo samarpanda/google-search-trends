@@ -1,0 +1,27 @@
+{
+  "name": "google-search-trends",
+  "version": "1.0.0",
+  "description": "Get top 20 google search trends grouped by countries",
+  "main": "google-search-trends.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samarpanda/google-search-trends.git"
+  },
+  "keywords": [
+    "google",
+    "search",
+    "trends"
+  ],
+  "author": "samar.panda84@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samarpanda/google-search-trends/issues"
+  },
+  "homepage": "https://github.com/samarpanda/google-search-trends",
+  "dependencies": {
+    "request": "^2.53.0"
+  }
+}
