@@ -9,7 +9,7 @@ $ npm install google-search-trends
 ## Usage:
 
 ```js
-var gst = require('./google-search-trends');
+var gst = require('google-search-trends');
 gst.result(function(err, res){
 	if(!err)
 		console.log(res);
