@@ -1,12 +1,15 @@
-## google-search-trends [[![Build Status](https://travis-ci.org/samarpanda/google-search-trends.svg?branch=master)](https://travis-ci.org/samarpanda/google-search-trends)]
+## google-search-trends [![Build Status](https://travis-ci.org/samarpanda/google-search-trends.svg?branch=master)](https://travis-ci.org/samarpanda/google-search-trends)
 
 > Get top 20 google search trends for each country. It includes 47 countries.
+
+```cmd
+$ npm install google-search-trends
+```
 
 ## Usage:
 
 ```js
 var gst = require('./google-search-trends');
-
 gst.result(function(err, res){
 	if(!err)
 		console.log(res);
