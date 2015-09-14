@@ -68,5 +68,3 @@ The output will be something like
 }
 ```
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/samarpanda/google-search-trends/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
