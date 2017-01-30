@@ -17,7 +17,7 @@ var trendsByCountry = function(cb, country){
   var self = arguments.length < 2 ? true : false;
   request(trendsByCountryUrl, function(error, response, body){
     if(!error && response.statusCode == 200){
-      let result = JSON.parse(body)
+      var result = JSON.parse(body)
       if(self || country === ALL_REGIONS){
         return cb(null, result)
       }else if(result.hasOwnProperty(country)){
