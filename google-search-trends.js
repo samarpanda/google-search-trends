@@ -13,7 +13,7 @@ var result = function(cb){
 	});
 }
 
-var trendsByCountry = function(country = ALL_REGIONS, cb){
+var trendsByCountry = function(cb, country = ALL_REGIONS){
   request(trendsByCountryUrl, function(error, response, body){
     if(!error && response.statusCode == 200){
       let result = JSON.parse(body)
