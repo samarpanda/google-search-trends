@@ -17,7 +17,7 @@ gst.trendsByCountry(function(err, res){
   } else {
     assert.ok(err);
   }
-}, 'all_regions');
+});
 
 gst.trendsByCountry(function(err, res){
   if(!err){
